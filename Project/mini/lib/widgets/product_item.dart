@@ -24,7 +24,7 @@ class ProductItem extends StatelessWidget {
         onTap: () {
           Navigator.pushNamed(context, EditProductPage.route, arguments: id);
         },
-        title: Text("Recipe NAMA: $recipeName"),
+        title: Text("Recipe Name: $recipeName"),
         subtitle: Text("Last Edited: $date"),
         trailing: IconButton(
           icon: const Icon(Icons.delete),
